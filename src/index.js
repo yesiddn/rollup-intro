@@ -12,7 +12,6 @@ const main = async () => {
         <img src="${product.images[0]}" alt="Fake store" />
         <h2>${product.title} <small>Precio $${product.price}</small></h2>
         <p>$ 100</p>
-        <button type="button">Buy</button>
       </article>
     `;
   }).join('');
